@@ -106,21 +106,6 @@ plt.show()
 
 ### ROC IMPLIMENTATION #### 
 
-""" REFERENCES -> PLEASE READ
-The following code below to impliment the ROC 
-has been pulled together from multiple sources online, some of it i found quite difficult to 
-implement therefore i have just moved over the structure and adjusted for this project. 
-Therefore  I wanted to ensure i correctly referenced them, further references will be given in the report,
-however I also wanted to ensure i referenced here. This ends around line 163 for the ROC implimentation
-https://stats.stackexchange.com/questions/2151/how-to-plot-roc-curves-in-multiclass-classification
-https://stackoverflow.com/questions/50941223/plotting-roc-curve-with-multiple-classes
-https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
-https://scikit-learn.org/stable/modules/multiclass.html#multiclass
-https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelBinarizer.html#sklearn.preprocessing.LabelBinarizer
-https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing-binarization
-https://towardsdatascience.com/multiclass-classification-evaluation-with-roc-curves-and-roc-auc-294fd4617e3a
-
-"""
 
 ### IMPORTANT -> For this to work it is important to undo the commenting for the label encoder on line 48 as this
 # will enable the labels to be taken as numerical values 
@@ -169,15 +154,6 @@ plt.show()
 
 
 ### PRECISION RECALL CURVE IMPLEMENTATION 
-""" REFERENCES -> Please read
- Much like above, difficult implementaiton albeit was easier after understanding how to implement ROC
- Despite this though, code heavily referenced from the following links: 
- https://stackoverflow.com/questions/50941223/plotting-roc-curve-with-multiple-classes
- https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html#:~:text=The%20precision%2Drecall%20curve%20shows,a%20low%20false%20negative%20rate.
- https://stackoverflow.com/questions/56090541/how-to-plot-precision-and-recall-of-multiclass-classifier
- https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html
- https://medium.com/@douglaspsteen/precision-recall-curves-d32e5b290248
- """
 
 #initilisaing dictionares to store preciison, recall and average precision scores
 precision = dict()
