@@ -10,25 +10,17 @@ Building a classifier in Python to categorise network packet data according to t
 
 Project Tooling:
 
-• Python
-
-• Python Libraries -- 
-
-• Sickitlearn
-
-• Numpy
-
-• pandas
+- Python
+- Python Libraries 
+  - Sickitlearn
+  - Numpy
+  - pandas
 
 
 Project processes and techniques:
 
-• Machine Learning
-
-• Reading data in python
-
-• Building a classifier in Python
-
-• Building visualisaOon graphs (ROC, recall, confusion matrix)
-
-• Using random forest sorOng algorithm
+- Machine Learning
+- Reading data in python
+- Building a classifier in Python
+- Building visualisaOon graphs (ROC, recall, confusion matrix)
+- Using random forest sorOng algorithm
