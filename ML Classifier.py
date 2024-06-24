@@ -1,8 +1,7 @@
-#CMP510 - Engineering Resilient Systems coursework
 # Classifer to categorise network packets according to attack category
 # Random Forest chosen & visualisation using : Confusion Matrix, Precision Recall Curve, ROC
 
-#importing required libraries - some might not be used due to unused code in program
+#importing required libraries
 from sklearn.calibration import label_binarize
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -85,9 +84,6 @@ print('Classification Report:')
 print(classification_report(y_testing_data, y_predicting_data))
 print('Accuracy Score:', accuracy_score(y_testing_data, y_predicting_data))
 
-
-
-
 # Compute confusion matrix
 compute_matrix = confusion_matrix(y_testing_data, y_predicting_data)
 
@@ -105,7 +101,6 @@ for (i, j), z in np.ndenumerate(compute_matrix):
 plt.show()
 
 ### ROC IMPLIMENTATION #### 
-
 
 ### IMPORTANT -> For this to work it is important to undo the commenting for the label encoder on line 48 as this
 # will enable the labels to be taken as numerical values 
@@ -150,7 +145,6 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic to Multi-Class')
 plt.legend(loc="lower right")
 plt.show()
-
 
 
 ### PRECISION RECALL CURVE IMPLEMENTATION 
